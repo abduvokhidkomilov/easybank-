@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+/* header ichidagi logo hamda navbar buttonlar uchun */
+header  .container{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Sitedagi navbar uchun */
+.site_list {
+    display: flex;
+}
+
+.site_item {
+    padding: 0px 10px;
+}
+/* sitedai ancer teglari uchun stillar */
+.site_item a{
+    color: #333;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+}
+/* cursor olib boriladigan o'zgaradigan stillar */
+.site_item a:hover {
+    cursor: pointer;
+    color:rgb(3, 158, 106) ;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: blue;
+    border-color: rgb(5, 2, 48);
+}
+
+/* navbar qismdagi buttun uchun stillar */
+.btn {
+    border-radius: 18px;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    background-color: rgb(3, 158, 106) ;
+
+}
+
+/* Main qism uchun stillar */
+.hero {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+}
+.hero_title {
+    width: 30%;
+    justify-items: center;
+}
+
+.hero_phone {
+    width: 50%;
+    background-image: url(./rasmlar/hero-bg-desktop-1.png);
+    background-size: 500px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero_phone img{
+    height: 500px;
+    float: right;
+    margin-top: 40px;
+}
+
+.hero_title p {
+    padding: 30px 0px;
+}
+
+.hero_title h1 {
+    font-size: 30px;
+}
+.hero2_title {
+    width: 60%;
+    color: #333;
+    margin-bottom: 60px;
+}
+
+
+.adver {
+    display: flex;
+    width: 100%;
+
+}
+
+.cards {
+    width: 25%;
+    padding-right: 20px;
+    height: 250px;
+}
+
+.cards img {
+    width: 50px;
+}
+
+.cards {
+    text-align:left;
+
+}
+
+.card h3,p {
+    padding-top: 20px;
+}
+
+.pictures {
+    color: #333;
+    height: 600px;
+}
+.pictures1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture1 {
+    width: 20%;
+}
+
+.picture1 h4,h2,p{
+    padding: 20px 10px 0px;
+    
+}
+
+footer {
+    background-color: rgb(25, 25, 61);
+    height: 100px;
+}
+footer .container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s_logo {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.about {
+    width: 20%;
+    float: left;
+}
+.about li{
+    padding-top: 10px;
+}
+
+.about a {
+    color: white;
+
+}
+
+.login {
+    width: 30%;
+}
+
+.btn1 {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.login  h5{
+    float: right;
+    color: white;
+
+}
